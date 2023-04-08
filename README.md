@@ -32,3 +32,17 @@ This project is a Laravel application that generates random person details and d
 - Generate and display random person details on the dashboard.
 - View the history of generated people.
 - Reset the database by removing all generated person records.
+
+
+## Screenshots
+
+
+
+### The Dashboard
+<img src="https://i.imgur.com/1nlSTdJ.png">
+
+### The History Page
+<img src="https://i.imgur.com/8cvBL4C.png">
+
+### The Reset Page
+<img src="https://i.imgur.com/VvAzGZf.png">
