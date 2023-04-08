@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.accordion-body {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
