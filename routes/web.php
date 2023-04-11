@@ -11,6 +11,8 @@ Route::get('/', function () {
     return redirect('/login');
 });
 
+require __DIR__.'/auth.php';
+
 // New routes for three pages. Placed within auth middleware to ensure that only authorised users may access them.
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -22,4 +24,4 @@ Route::middleware('auth')->group(function () {
     Route::post('/reset', [ResetController::class, 'reset'])->name('reset');
 });
 
-require __DIR__.'/auth.php';
+
