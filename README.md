@@ -23,6 +23,9 @@ This project is a Laravel application that generates random person details and d
 
 7. Run the database migrations:
    php artisan migrate
+   
+8. Generate front-end assets: 
+   npm install && npm run dev
 
 8. Serve the application:
    php artisan serve
