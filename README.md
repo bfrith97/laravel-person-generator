@@ -8,7 +8,7 @@ This project is a Laravel application that generates random person details and d
    git clone https://github.com/bfrith97/laravel-person-generator.git
 
 2. Change into the project directory:
-   cd laravel-technical-test
+   cd laravel-person-generator
 
 3. Install dependencies:
    composer install
